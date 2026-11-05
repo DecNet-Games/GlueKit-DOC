@@ -15,6 +15,8 @@ permalink: /
 [Get started]({{ site.baseurl }}/docs/getting-started/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Buy on the Unity Asset Store](https://assetstore.unity.com/publishers/118262){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+![GlueKit — settings, controls, save slots and a debug console for Unity 6]({{ site.baseurl }}/assets/images/cover.png)
+
 ---
 
 ## The week every prototype reaches
@@ -25,6 +27,14 @@ Every playable prototype reaches the same week. The game is fun in the room, and
 - **Rebinding on the Input System your project already uses** — per-scheme bindings, keyboard and gamepad glyphs with text fallback, and real conflict handling: capture a key another action already uses and the panel names the conflict and offers **Swap**, **Replace**, or **Cancel**. A binding is never silently stolen.
 - **Save slots and autosave, as a framework** — five manual slots plus a dedicated autosave slot that manual saves can never overwrite. Slot name, timestamps, accumulated play time, game version, chapter label and a thumbnail captured at save time. Before a save can be loaded it is validated, and a save that cannot be loaded is shown as unavailable with the reason in plain language.
 - **A debug console your game can extend** — register commands with an attribute or a single `Register` call. History, command completion, audience gating — and one setting, `IncludeInReleaseBuilds`, that strips the console from release builds. The default for a fresh install is development only.
+
+<video controls width="100%" poster="{{ site.baseurl }}/assets/images/showcase-01.jpg">
+  <source src="{{ site.baseurl }}/assets/video/gluekit-overview.mp4" type="video/mp4">
+</video>
+
+*GlueKit's four systems in one session — settings, rebinding, save slots, and the debug console.*
+
+![GlueKit panels — settings, rebinding, save slots and console]({{ site.baseurl }}/assets/images/gluekit-panels.gif)
 
 ## See it work in one session
 
